@@ -1,0 +1,11 @@
+server:
+  port: 8088
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://tai21042004:21042004@shopeeapp.yptanxn.mongodb.net/SaoKeMTTQ?retryWrites=true&w=majority
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
